@@ -55,3 +55,7 @@ https://*****.**
 ```
 
 *(err 2)* is an error returned by [heartbleed executable](https://github.com/FiloSottile/Heartbleed) when a connection was forcibly closed by the remote host.
+
+In order to get all URLs from Firefox profile that begin with "https://", use the following SQLite query on `places.sqlite`:
+
+`select distinct url from moz_places where url like 'https://%';`
