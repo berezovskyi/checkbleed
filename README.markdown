@@ -9,6 +9,9 @@ In order to run checkbleed, you must build it (`mvn assembly:assembly`) and then
 
 `java -jar target/me.berezovskiy.checkbleed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -file "/path/to/file/here" -d 64`
 
+* `-file` specifies input file
+* `-d` specifies thread pool size
+
 Sample input file:
 
 ```
