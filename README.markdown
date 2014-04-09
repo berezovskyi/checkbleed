@@ -5,9 +5,9 @@ Checkbleed is a command-line utility written in Java (Java SE 7+) that allows ba
 
 What you can do today - scan your bookmarks and notify the dizzy website owners before they get 0wn3d.
 
-In order to run checkbleed, you must build it with maven (`mvn assembly:assembly`) and then run it with parameters:
+In order to run checkbleed, you must build it (`mvn assembly:assembly`) and then run with parameters:
 
-`java -jar target/me.berezovskiy.checkbleed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -file "/path/to/file/here"`
+`java -jar target/me.berezovskiy.checkbleed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -file "/path/to/file/here" -d 64`
 
 Sample input file:
 
