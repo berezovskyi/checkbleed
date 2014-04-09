@@ -7,4 +7,4 @@ What you can do today - scan your bookmarks and notify the dizzy website owners 
 
 In order to run checkbleed, you must build it with maven (`mvn assembly:assembly`) and then run it with parameters:
 
-``
+`java -jar target/me.berezovskiy.checkbleed-0.0.1-SNAPSHOT-jar-with-dependencies.jar -file "/path/to/file/here"`
