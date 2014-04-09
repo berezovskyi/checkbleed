@@ -18,10 +18,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import com.beust.jcommander.JCommander;
+
 public class CheckBleed {
 
 	public static void main(String[] args) throws IOException {
 		Settings settings = new Settings(); // TODO replace by JCommander
+		new JCommander(settings, args);
 		
 		FileSystem defaultFileSystem = FileSystems.getDefault();
 		Path filePath = defaultFileSystem.getPath(settings.getFileName());
