@@ -54,4 +54,4 @@ https://*****.**
 https://*****.**
 ```
 
-*(err 2)* is an error returned by heartbleed executable when a connection was forcibly closed by the remote host.
+*(err 2)* is an error returned by [heartbleed executable](https://github.com/FiloSottile/Heartbleed) when a connection was forcibly closed by the remote host.
