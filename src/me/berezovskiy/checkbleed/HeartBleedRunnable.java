@@ -17,7 +17,7 @@ public class HeartBleedRunnable implements Runnable {
 	public void run() {
 		try {
 			Runtime runtime = Runtime.getRuntime();
-			Process exec = runtime.exec(new String[]{"Heartbleed.exe", domain});
+			Process exec = runtime.exec(new String[]{"heartbleed", domain});
 			int exitValue = exec.waitFor();
 			if(exitValue == 0) {
 //				System.out.printf("Domain %s is secure\n", domain);//TODO log4j
