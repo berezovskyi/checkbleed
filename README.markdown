@@ -1,6 +1,8 @@
 Checkbleed
 ================
 
+[![Join the chat at https://gitter.im/berezovskyi/checkbleed](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/berezovskyi/checkbleed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Checkbleed is a command-line utility written in Java (Java SE 7+) that allows batch check of URL lists against the [Heartbleed](http://heartbleed.com/) vulnerability.
 
 What you can do today - scan your bookmarks and notify the dizzy website owners before they get 0wn3d.
